@@ -1,0 +1,77 @@
+[
+    {
+        "ville": "Dakar",
+        "lat": 14.6934,
+        "lon": -17.4479
+    },
+    {
+        "ville": "Thiès",
+        "lat": 14.7915,
+        "lon": -16.9256
+    },
+    {
+        "ville": "Kaolack",
+        "lat": 14.1388,
+        "lon": -16.0764
+    },
+    {
+        "ville": "Saint-Louis",
+        "lat": 16.028,
+        "lon": -16.5049
+    },
+    {
+        "ville": "Ziguinchor",
+        "lat": 12.5635,
+        "lon": -16.2725
+    },
+    {
+        "ville": "Tambacounda",
+        "lat": 13.7693,
+        "lon": -13.6683
+    },
+    {
+        "ville": "Louga",
+        "lat": 15.6119,
+        "lon": -16.2233
+    },
+    {
+        "ville": "Fatick",
+        "lat": 14.334,
+        "lon": -16.4042
+    },
+    {
+        "ville": "Kolda",
+        "lat": 12.8936,
+        "lon": -14.9397
+    },
+    {
+        "ville": "Kaffrine",
+        "lat": 14.102,
+        "lon": -15.5484
+    },
+    {
+        "ville": "Matam",
+        "lat": 15.6566,
+        "lon": -13.2559
+    },
+    {
+        "ville": "Diourbel",
+        "lat": 14.6546,
+        "lon": -16.2278
+    },
+    {
+        "ville": "Podor",
+        "lat": 16.6527,
+        "lon": -14.9587
+    },
+    {
+        "ville": "Richard-Toll",
+        "lat": 16.4663,
+        "lon": -15.6884
+    },
+    {
+        "ville": "Bakel",
+        "lat": 14.905,
+        "lon": -12.4568
+    }
+]
