@@ -1,0 +1,93 @@
+# Fichiers de configuration sensibles
+.env
+*.env
+!.env.example
+
+# Données sensibles
+data/raw/
+data/clean/
+*.csv
+*.json
+
+# Clés et certificats
+*.key
+*.pem
+*.p12
+service-account-key.json
+
+# Logs
+*.log
+logs/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS et fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fichiers redondants et temporaires
+*_BACKUP
+*_OLD
+*_TEMP
+SECURITY_REPORT.md
+GITHUB_SECURITY.md
+SECURITY_SUMMARY.md
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Données temporaires
+temp/
+tmp/
+*.tmp
+
+# Modèles ML entraînés
+models/trained_models/
+models/*.pkl
+models/*.joblib
+*.model
+
+# Google Cloud SDK
+copernicus_data/google-cloud-sdk/
