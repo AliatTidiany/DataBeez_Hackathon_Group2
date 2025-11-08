@@ -1,6 +1,34 @@
-# Ignorer tous les logs
-logs/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+venv_DataBeez/
 
-# Ignorer les fichiers temporaires
+# Logs
+logs/
 *.log
 *.tmp
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Models
+models/saved/*.pkl
+models/saved/*.joblib
+*.pkl
+*.joblib
+
+# Database
+*.db
+*.sqlite
