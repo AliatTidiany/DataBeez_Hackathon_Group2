@@ -1,41 +1,89 @@
-Plateforme d’Intelligent Météo & Agricole – DataBeez Hackathon
-Contexte
+
+---
+
+# Plateforme d’Intelligent Météo & Agricole – DataBeez Hackathon
+
+## Contexte
 
 L’agriculture en Afrique est fortement dépendante de la météo, mais les agriculteurs font face à :
 
-Imprévisibilité des pluies → irrigation mal planifiée
-
-Sécheresses et chaleurs extrêmes → pertes de récoltes
-
-Manque d’informations fiables en temps réel
+* Imprévisibilité des pluies → irrigation mal planifiée
+* Sécheresses et chaleurs extrêmes → pertes de récoltes
+* Manque d’informations fiables en temps réel
 
 Les solutions existantes sont souvent trop générales ou difficiles d’accès.
 
-Objectif
+## Objectif
 
-Créer une plateforme intelligente d’aide à la décision agricole pour :
+Créer une **plateforme intelligente d’aide à la décision agricole** pour :
 
-Fournir des prévisions météo locales adaptées aux champs.
+1. Fournir des prévisions météo locales adaptées aux champs.
+2. Développer des modèles prédictifs pour la pluie, la sécheresse, l’irrigation et les maladies.
+3. Proposer une interface simple et accessible via Streamlit.
 
-Développer des modèles prédictifs pour la pluie, la sécheresse, l’irrigation et les maladies.
+**But final** : aider les agriculteurs à mieux planifier les semis, l’arrosage et la récolte afin d’améliorer le rendement et réduire les pertes.
 
-Proposer une interface simple et accessible via Streamlit.
+## Technologies utilisées
 
-But final : aider les agriculteurs à mieux planifier les semis, l’arrosage et la récolte afin d’améliorer le rendement et réduire les pertes.
+* Python 3.9
+* Docker & Docker Compose
+* PostgreSQL 15
+* Apache Airflow 2.7
+* Streamlit
+* Pandas, Scikit-learn
 
-Technologies utilisées
+## Installation et démarrage
 
-Python 3.9
+### 1. Cloner le projet
 
-Docker & Docker Compose
+```bash
+git clone <lien_du_repo>
+cd Project
+```
 
-PostgreSQL 15
+### 2. Lancer Docker Compose
 
-Apache Airflow 2.7
+```bash
+docker-compose up --build
+```
 
-Streamlit
+### 3. Accéder aux services
 
-Pandas, Scikit-learn
+* Streamlit : [http://localhost:8501](http://localhost:8501)
+* Airflow : [http://localhost:8080](http://localhost:8080)
 
-Installation et démarrage
-1. Cloner le projet
+  * Username : admin
+  * Password : admin
+* PgAdmin : [http://localhost:5050](http://localhost:5050)
+
+  * Email : [admin@admin.com](mailto:admin@admin.com)
+  * Password : admin
+
+## Structure du projet
+
+```
+Project/
+│
+├─ config/             # Fichiers de configuration (paramètres, clés, etc.)
+├─ dags/               # DAGs Apache Airflow pour orchestrer les workflows
+├─ data/               # Données brutes et transformées
+├─ etl/                # Scripts ETL : extraction, transformation et chargement
+├─ logs/               # Fichiers de logs (Airflow, modèles, etc.)
+├─ models/             # Modèles de machine learning et scripts associés
+│
+├─ .env                # Variables d'environnement
+├─ .gitignore          # Fichiers à exclure du suivi Git
+├─ docker-compose.yml  # Configuration des services Docker
+├─ README.md           # Documentation du projet
+└─ requirements.txt    # Dépendances Python
+```
+
+## Fonctionnalités
+
+* Extraction automatique des données météo et agricoles
+* Prédictions intelligentes via des modèles de machine learning
+* Entraînement automatique des modèles si aucun n’est disponible
+* Application Streamlit pour visualiser les prévisions et recommandations
+* Orchestration complète des pipelines via Apache Airflow
+
+
