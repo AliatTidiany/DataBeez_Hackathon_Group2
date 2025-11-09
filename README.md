@@ -1,7 +1,7 @@
 
 ---
 
-# Plateforme d’Intelligent Météo & Agricole – DataBeez Hackathon
+# Plateforme Intelligente Météo & Agricole – DataBeez Hackathon
 
 ## Contexte
 
