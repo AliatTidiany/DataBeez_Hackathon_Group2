@@ -1,0 +1,5 @@
+Model,Status,Type,R²,RMSE,MAE,Accuracy,Precision,Recall,F1-Score
+rainfall_prediction,Trained,Régression,0.78,2.34,1.89,,,,
+drought_prediction,Trained,Classification,,,,0.85,0.83,0.87,0.85
+irrigation_optimization,Trained,Régression,0.82,1.89,1.45,,,,
+disease_prediction,Trained,Classification,,,,0.79,0.76,0.81,0.78
