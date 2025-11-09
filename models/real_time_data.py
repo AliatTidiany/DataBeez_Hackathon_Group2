@@ -60,7 +60,7 @@ class RealTimeDataProvider:
             coords = self.cities_coords[city]
             
             # URL de l'API OpenWeatherMap
-            url = f"http://api.openweathermap.org/data/2.5/weather"
+            url = f"http://api.openweathermap.org/data/3.0/weather"
             params = {
                 'lat': coords['lat'],
                 'lon': coords['lon'],
