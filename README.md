@@ -70,12 +70,16 @@ Project/
 ├─ etl/                # Scripts ETL : extraction, transformation et chargement
 ├─ logs/               # Fichiers de logs (Airflow, modèles, etc.)
 ├─ models/             # Modèles de machine learning et scripts associés
+├─ Team_CV/            # CVs des membres de l'équipe
+├─ demo/               # Vidéo démo de l'application
+├─ Presentation/       # Présentation du projet
 │
 ├─ .env                # Variables d'environnement
 ├─ .gitignore          # Fichiers à exclure du suivi Git
 ├─ docker-compose.yml  # Configuration des services Docker
 ├─ README.md           # Documentation du projet
 └─ requirements.txt    # Dépendances Python
+
 ```
 
 ## Fonctionnalités
