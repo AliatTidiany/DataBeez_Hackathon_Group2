@@ -61,19 +61,6 @@ flowchart LR
 - Pipelines entièrement orchestrés par Airflow
 - Déploiement de toute la stack en une commande avec Docker Compose
 
-## Démarrage rapide
-
-```bash
-git clone <lien_du_repo>
-cd Project
-docker-compose up --build
-```
-
-| Service | URL | Identifiants (démo locale) |
-|---|---|---|
-| Application Streamlit | http://localhost:8501 | |
-| Airflow | http://localhost:8080 | admin / admin |
-| PgAdmin | http://localhost:5050 | admin@admin.com / admin |
 
 ## Structure du projet
 
@@ -102,6 +89,3 @@ Project/
 - Orchestrer des tâches dépendantes avec **Airflow** (planification, reprise sur erreur, suivi des exécutions).
 - Livrer un produit complet en **équipe et sous contrainte de temps**, en coordination avec les profils data science et applicatif.
 
-## Équipe
-
-Projet collectif du DataBeez Hackathon. Les CVs des membres sont dans `Team_CV/`.
